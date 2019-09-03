@@ -14,7 +14,8 @@
 
     <!-- [Optional] Freshchat needs external storage access to store voice messages -->
     <!-- Can be removed/negated if voice messaging is disabled -->
-    <!-- <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />  -->
+    <!-- [Optional] Freshchat requires external storage access to download file attachments in chat when Web view is used -->
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
 
     <uses-sdk android:minSdkVersion="16" />
 
@@ -26,6 +27,12 @@
 
         <activity
             android:name="com.freshchat.consumer.sdk.activity.ConversationDetailActivity"
+            android:configChanges="orientation|screenSize"
+            android:theme="@style/Theme.Freshchat.SelectedTheme"
+            android:windowSoftInputMode="stateHidden" />
+
+        <activity
+            android:name=".activity.ConversationDetailWebViewActivity"
             android:configChanges="orientation|screenSize"
             android:theme="@style/Theme.Freshchat.SelectedTheme"
             android:windowSoftInputMode="stateHidden" />

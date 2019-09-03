@@ -1,3 +1,9 @@
+## 3.0.0-Beta (2019-9-3)
+
+### Enhancement
+* Hybrid experience in SDK
+
+
 ## 2.7.1 (2019-9-3)
 
 ### Bug Fix

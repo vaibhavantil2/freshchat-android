@@ -57,6 +57,7 @@
 	<string name="freshchat_chat_voice_messaging_permissions_rationale">Audio Recording permission and Write External Storage permission is required to capture and send voice messages</string>
 	<string name="freshchat_chat_voice_messaging_audio_recording_permission_rationale">Audio Recording permission is required to capture and send voice messages</string>
 	<string name="freshchat_chat_voice_messaging_write_storage_permission_rationale">Write External Storage permission is required to capture and send voice messages</string>
+	<string name="freshchat_chat_external_storage_permission_denied">Write to External Storage permission required to download files denied</string>
 
 	<string name="freshchat_voice_message_preview">[Voice ({{duration}})]</string>
 	<string name="freshchat_voice_message_preview_duration_tag">{{duration}}</string>
@@ -131,4 +132,9 @@
 
 	<!--Strings for Business hour offline response-->
 	<string name="freshchat_all_members_away_message">We are away now</string>
+
+	<string name="freshchat_choose_a_file">Choose a file</string>
+
+	<!-- Web widget string resource file -->
+	<string name="freshchat_widget_localisation_filepath"></string>
 </resources>
