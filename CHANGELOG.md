@@ -1,3 +1,8 @@
+##3.1.1(2020-01-06)
+
+### Bug Fix
+* Fix for In-app locale change on orientation change
+
 ##3.0.0(2019-11-12)
 
 ### Enhancement
