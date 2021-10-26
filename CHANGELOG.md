@@ -1,3 +1,8 @@
+## 5.0.0(2021-10-26)
+
+### Enhancement
+* Support for Bots created using bots builder
+
 ## 4.4.0(2021-10-04)
 
 ### Build Changes
